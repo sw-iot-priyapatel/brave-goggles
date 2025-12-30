@@ -18,6 +18,7 @@ boost:site:google.com
 
 # Strict blocks (exact domains)
 -block:trustpilot.com
+-block:www.trustpilot.com
 -block:shopskinclinic.com
 -block:cosmeticskinclinic.com
 -block:fake-review-site.com
