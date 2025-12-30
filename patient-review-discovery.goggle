@@ -10,6 +10,7 @@ boost:site:zocdoc.com
 boost:site:google.com
 
 -block:trustpilotreviews.com
+-block:trustpilot.com
 -block:topreviewsites.com
 -block:bestreviewsite.com
 -block:reviewscorecard.com
