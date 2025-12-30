@@ -1,0 +1,27 @@
+! name: Patient Reviews Discovery
+! description: Boost known patient review platforms and block low quality / fake review directories
+! public: true
+! author: Priya Patel
+
+boost:site:realself.com
+boost:site:yelp.com
+boost:site:healthgrades.com
+boost:site:zocdoc.com
+boost:site:google.com
+
+-block:trustpilotreviews.com
+-block:topreviewsites.com
+-block:bestreviewsite.com
+-block:reviewscorecard.com
+-block:scamreview.com
+
+-block:yellowpages.com
+-block:manta.com
+-block:hotfrog.com
+-block:bizapedia.com
+-block:chamberofcommerce.com
+
+-block:reddit.com
+-block:quora.com
+-block:tiktok.com
+-block:facebook.com
