@@ -1,0 +1,70 @@
+! name: Regulatory & Official Health Authorities
+! description: Prioritize official government and regulatory health bodies; block non-official, blog, forum, and social sources
+! author: Priya Patel
+! public: true
+
+# ============================================================
+# STRONG BOOST — OFFICIAL REGULATORY BODIES
+# (Repeated boosts increase relative priority)
+# ============================================================
+
+boost:site:fda.gov
+boost:site:fda.gov
+boost:site:fda.gov
+
+boost:site:cdc.gov
+boost:site:cdc.gov
+boost:site:cdc.gov
+
+boost:site:nih.gov
+boost:site:nih.gov
+boost:site:nih.gov
+
+# Include common official subdomains explicitly
+boost:site:www.fda.gov
+boost:site:www.cdc.gov
+boost:site:www.nih.gov
+
+# ============================================================
+# HARD BLOCK — FORUMS / SOCIAL / USER-GENERATED CONTENT
+# ============================================================
+
+-block:reddit.com
+-block:www.reddit.com
+
+-block:quora.com
+-block:www.quora.com
+
+-block:facebook.com
+-block:twitter.com
+-block:x.com
+-block:instagram.com
+-block:tiktok.com
+-block:youtube.com
+
+# ============================================================
+# HARD BLOCK — BLOGGING & OPINION PLATFORMS
+# ============================================================
+
+-block:medium.com
+-block:www.medium.com
+
+-block:substack.com
+-block:blogspot.com
+-block:wordpress.com
+
+# ============================================================
+# HARD BLOCK — UNVERIFIED / GENERAL NEWS (NON-REGULATORY)
+# ============================================================
+
+-block:newsbreak.com
+-block:dailycaller.com
+-block:thegatewaypundit.com
+
+# ============================================================
+# HARD BLOCK — Q&A / DISCUSSION / CONTENT AGGREGATORS
+# ============================================================
+
+-block:stackexchange.com
+-block:stackoverflow.com
+-block:wikipedia.org
