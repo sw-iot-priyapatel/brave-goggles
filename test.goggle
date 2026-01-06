@@ -1,5 +1,11 @@
+! name: Manufacturer & Device Companies (Aesthetics)
+! description: Prioritize official manufacturer and device company sources; block blogs, forums, social media, and unverified content
+! author: Priya Patel
+! public: true
+
 # ============================================================
-# PRIORITY 1 — TOP-TIER OFFICIAL MANUFACTURERS (STRONGEST)
+# STRONG BOOST — OFFICIAL MANUFACTURER / DEVICE COMPANIES
+# (Repeated boosts increase relative priority)
 # ============================================================
 
 boost:site:inmodemd.com
@@ -12,36 +18,25 @@ boost:site:allerganaesthetics.com
 boost:site:allerganaesthetics.com
 boost:site:www.allerganaesthetics.com
 
-
-# ============================================================
-# PRIORITY 2 — GLOBAL DERMAL FILLER & AESTHETICS LEADERS
-# ============================================================
-
 boost:site:galderma.com
 boost:site:galderma.com
 boost:site:galderma.com
 boost:site:www.galderma.com
-
-boost:site:merzaesthetics.com
-boost:site:merzaesthetics.com
-boost:site:merzaesthetics.com
-boost:site:www.merzaesthetics.com
-
-
-# ============================================================
-# PRIORITY 3 — ENERGY-BASED DEVICE MANUFACTURERS
-# ============================================================
 
 boost:site:cynosure.com
 boost:site:cynosure.com
 boost:site:cynosure.com
 boost:site:www.cynosure.com
 
+boost:site:merzaesthetics.com
+boost:site:merzaesthetics.com
+boost:site:merzaesthetics.com
+boost:site:www.merzaesthetics.com
+
 boost:site:almalasers.com
 boost:site:almalasers.com
 boost:site:almalasers.com
 boost:site:www.almalasers.com
-
 
 # ============================================================
 # HARD BLOCK — FORUMS / SOCIAL / USER-GENERATED CONTENT
@@ -49,6 +44,7 @@ boost:site:www.almalasers.com
 
 -block:reddit.com
 -block:www.reddit.com
+
 -block:quora.com
 -block:www.quora.com
 
@@ -59,30 +55,28 @@ boost:site:www.almalasers.com
 -block:tiktok.com
 -block:youtube.com
 
-
 # ============================================================
 # HARD BLOCK — BLOGGING / OPINION PLATFORMS
 # ============================================================
 
 -block:medium.com
 -block:www.medium.com
+
 -block:substack.com
 -block:blogspot.com
 -block:wordpress.com
 
-
 # ============================================================
-# HARD BLOCK — PRESS RELEASE WIRES / AGGREGATORS
+# HARD BLOCK — UNVERIFIED / NON-OFFICIAL NEWS & AGGREGATORS
 # ============================================================
 
+-block:newsbreak.com
 -block:prnewswire.com
 -block:globenewswire.com
 -block:businesswire.com
--block:newsbreak.com
-
 
 # ============================================================
-# HARD BLOCK — COMMUNITY / CROWD-EDITED SOURCES
+# HARD BLOCK — Q&A / COMMUNITY / AGGREGATOR SITES
 # ============================================================
 
 -block:wikipedia.org
