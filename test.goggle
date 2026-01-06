@@ -1,8 +1,6 @@
 # ============================================================
 # PRIORITY 1 — TOP-TIER OFFICIAL MANUFACTURERS (STRONGEST)
 # ============================================================
-$boost=1,site=inmodemd.com 
-$boost=1,site:www.inmodemd.com
 
 boost:site:inmodemd.com
 boost:site:inmodemd.com
