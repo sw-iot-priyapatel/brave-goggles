@@ -1,0 +1,72 @@
+! name: Manufacturer & Device Companies (Aesthetics)
+! description: Prioritize official manufacturer and device company sources; block blogs, forums, social media, and unverified content
+! author: Priya Patel
+! public: true
+
+# ============================================================
+# STRONG BOOST — OFFICIAL MANUFACTURER / DEVICE COMPANIES
+# (Repeated boosts increase relative priority)
+# ============================================================
+
+site:inmodemd.com
+site:www.inmodemd.com
+
+site:allerganaesthetics.com
+site:www.allerganaesthetics.com
+
+site:galderma.com
+site:www.galderma.com
+
+site:cynosure.com
+site:www.cynosure.com
+
+site:merzaesthetics.com
+site:www.merzaesthetics.com
+
+site:almalasers.com
+site:www.almalasers.com
+
+# ============================================================
+# HARD BLOCK — FORUMS / SOCIAL / USER-GENERATED CONTENT
+# ============================================================
+
+-block:reddit.com
+-block:www.reddit.com
+
+-block:quora.com
+-block:www.quora.com
+
+-block:facebook.com
+-block:instagram.com
+-block:twitter.com
+-block:x.com
+-block:tiktok.com
+-block:youtube.com
+
+# ============================================================
+# HARD BLOCK — BLOGGING / OPINION PLATFORMS
+# ============================================================
+
+-block:medium.com
+-block:www.medium.com
+
+-block:substack.com
+-block:blogspot.com
+-block:wordpress.com
+
+# ============================================================
+# HARD BLOCK — UNVERIFIED / NON-OFFICIAL NEWS & AGGREGATORS
+# ============================================================
+
+-block:newsbreak.com
+-block:prnewswire.com
+-block:globenewswire.com
+-block:businesswire.com
+
+# ============================================================
+# HARD BLOCK — Q&A / COMMUNITY / AGGREGATOR SITES
+# ============================================================
+
+-block:wikipedia.org
+-block:stackexchange.com
+-block:stackoverflow.com
