@@ -7,78 +7,73 @@
 # OFFICIAL MANUFACTURER PRIORITY (Lower = Higher Priority)
 # ============================================================
 
-# 1. InMode MD — Energy-Based Devices
-$boost=1,site=inmodemd.com
-$boost=1,site=www.inmodemd.com
+# 1. InMode MD
+$boost=1,site,inmodemd.com
+$boost=1,site,www.inmodemd.com
 
+# 2. Galderma
+$boost=2,site,galderma.com
+$boost=2,site,www.galderma.com
 
-# 2. Galderma — Dermatology & Aesthetics
-$boost=2,site=galderma.com
-$boost=2,site=www.galderma.com
+# 3. Allergan Aesthetics
+$boost=3,site,allerganaesthetics.com
+$boost=3,site,www.allerganaesthetics.com
 
+# 4. Merz Aesthetics
+$boost=4,site,merzaesthetics.com
+$boost=4,site,www.merzaesthetics.com
 
-# 3. Allergan Aesthetics — Injectables & Devices
-$boost=3,site=allerganaesthetics.com
-$boost=3,site=www.allerganaesthetics.com
+# 5. Cynosure
+$boost=5,site,cynosure.com
+$boost=5,site,www.cynosure.com
 
-
-# 4. Merz Aesthetics — Neurotoxins & Fillers
-$boost=4,site=merzaesthetics.com
-$boost=4,site=www.merzaesthetics.com
-
-
-# 5. Cynosure — Laser & Energy-Based Devices
-$boost=5,site=cynosure.com
-$boost=5,site=www.cynosure.com
-
-
-# 6. Alma Lasers — Energy-Based Platforms
-$boost=6,site=almalasers.com
-$boost=6,site=www.almalasers.com
+# 6. Alma Lasers
+$boost=6,site,almalasers.com
+$boost=6,site,www.almalasers.com
 
 
 # ============================================================
 # HARD BLOCK — SOCIAL / USER-GENERATED CONTENT
 # ============================================================
 
-$block=site:reddit.com
-$block=site:www.reddit.com
-$block=site:quora.com
-$block=site:www.quora.com
+$block=site,reddit.com
+$block=site,www.reddit.com
+$block=site,quora.com
+$block=site,www.quora.com
 
-$block=site:facebook.com
-$block=site:instagram.com
-$block=site:twitter.com
-$block=site:x.com
-$block=site:tiktok.com
-$block=site:youtube.com
+$block=site,facebook.com
+$block=site,instagram.com
+$block=site,twitter.com
+$block=site,x.com
+$block=site,tiktok.com
+$block=site,youtube.com
 
 
 # ============================================================
 # HARD BLOCK — BLOGGING / OPINION PLATFORMS
 # ============================================================
 
-$block=site:medium.com
-$block=site:www.medium.com
-$block=site:substack.com
-$block=site:blogspot.com
-$block=site:wordpress.com
+$block=site,medium.com
+$block=site,www.medium.com
+$block=site,substack.com
+$block=site,blogspot.com
+$block=site,wordpress.com
 
 
 # ============================================================
 # HARD BLOCK — PRESS RELEASE WIRES / AGGREGATORS
 # ============================================================
 
-$block=site:prnewswire.com
-$block=site:globenewswire.com
-$block=site:businesswire.com
-$block=site:newsbreak.com
+$block=site,prnewswire.com
+$block=site,globenewswire.com
+$block=site,businesswire.com
+$block=site,newsbreak.com
 
 
 # ============================================================
 # HARD BLOCK — COMMUNITY / CROWD-SOURCED CONTENT
 # ============================================================
 
-$block=site:wikipedia.org
-$block=site:stackexchange.com
-$block=site:stackoverflow.com
+$block=site,wikipedia.org
+$block=site,stackexchange.com
+$block=site,stackoverflow.com
