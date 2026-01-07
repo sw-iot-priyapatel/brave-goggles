@@ -7,7 +7,7 @@
 $discard
 $downrank,site=medium.com
 
-$boost=3,site=inmodemd.com
-$boost=3,site=allerganaesthetics.com
-$boost=3,site=galderma.com
+$boost=1,site=inmodemd.com
+$boost=1,site=allerganaesthetics.com
+$boost=2,site=galderma.com
 $boost=3,site=cynosure.com
